@@ -1,0 +1,14 @@
+{
+    "type": "mysql",
+    "host": "localhost",
+    "database": "develcode",
+    "username": "root",
+    "password": "",
+    "logging": true,
+    "entities": ["./src/models/*.ts"],
+    "migrations": ["./src/database/migrations/*.ts"],
+    "cli": {
+        "migrationsDir": "./src/database/migrations"
+    }
+
+}
